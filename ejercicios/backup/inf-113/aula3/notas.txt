@@ -1,0 +1,20 @@
+ EJERCICIO 6
+
+cat inf-113/aula3/nombres.txt | sort
+ ordena las lineas por orden alfabetico
+
+cat inf-113/aula3/nombres.txt | sort | uniq
+ omite las lineas que se repiten y muestra solo una
+
+cat inf-113/aula3/nombres.txt | sort | uniq -c
+ enumera en la parte izquierda contando el numero de lineas que se repiten
+
+cat inf-113/aula3/nombres.txt | sort | head -n3
+ muestra el contenido de las primeras tres lineas del archivo
+
+cat inf-113/aula3/nombres.txt | sort | tail -n3
+ muestra el contenido de las ultimas tres lineas del archivo
+
+cat inf-113/aula3/nombres.txt | sort | head -n3 > tres_primeros.txt
+ muestra el contenido de las primeras tres lineas del archivo ademas de redireccionar 
+ la salida del comando a un archivo

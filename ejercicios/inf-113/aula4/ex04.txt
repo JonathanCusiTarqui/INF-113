@@ -1,0 +1,16 @@
+El comando TOP permite conocer información sobre el servidor en tiempo real: carga del servidor,
+días que lleva encendido, usuarios conectados por SSH… Para poder ejecutar este comando es necesario acceder al servidor por SSH.
+
+La primera línea indica la información relacionada con el servidor: la hora, los días que el servidor lleva encendido,
+  cuántos usuarios están conectados y la carga del servidor en el último minuto, en los últimos 5 minutos y en los 15 últimos minutos.
+La segunda línea mostrará los procesos totales, cuántos de ellos están activos, cuántos están en reposo, parados o en modo "zombie".
+La tercera línea ofrece información sobre la carga de CPU:
+Porcentaje de procesos de los usuarios (%us).
+Porcentaje de procesos del sistema (%sy).
+Porcentaje con prioridad de upgrade nice (%ni).
+Porcentaje que no se está utilizando (%id).
+Porcentaje esperando para I/O (%wa).
+Porcentaje para interrupciones de hardware (%hi).
+Porcentaje para interrupciones de software (%si).
+Porcentaje utilizado por el hipervisor y otras tareas (%st).
+Las dos últimas líneas indican el uso de memoria y de swap.

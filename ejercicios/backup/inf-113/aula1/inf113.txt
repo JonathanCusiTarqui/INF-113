@@ -1,0 +1,9 @@
+COMANDOS 
+
+CP: se utiliza para copiar archivos y directorios
+RM: comando que borra directorios solamente
+Mv: mueve archivos y directorios, tambien sirve para renombrarlos
+MKDIR: crea directiorios
+RMDIR: solo borra directorios vacios
+TOUCH: cambia la fecha y hora del ultimo acceso o modificacion
+LS: lista archivios y directorios

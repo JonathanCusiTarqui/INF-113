@@ -1,0 +1,7 @@
+
+COMANDO CP: la opcion mas conveniente seria usar el comando cp -r que permite copiar archivos y directorios
+
+COMANDO MKDIR: este comando puede crear dos o mas archivos a la vez 
+
+COMANDO RM: el comando rm-r puede ser muy util ya que permite borrar un directorio y todo lo que se encuentre 
+            dentro del mismo

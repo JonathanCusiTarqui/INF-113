@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		.a1{
+			background-color: yellow;
+			border-bottom-style: none;
+      border-left-style: none;
+      border-right-style: none;
+		}
+        .a2{
+        	background-color: white;
+        	border-top-color: #0000e0;
+        	border-bottom-style: none;
+          border-left-style: none;
+          border-right-style: none;
+        }
+		body{
+			background-color: silver; 
+			font-weight: bold;
+		}
+		.c1 {
+			display: inline-block;
+			width: 600px;
+			vertical-align: top;
+			}
+		.c2{ 
+			display: inline-block; 
+			width: 200px;
+			text-align: right;
+		}
+		.c3{
+		  float: right;
+		}
+	</style>
+</head>
+<body>
+<fieldset class="a2">
+<h1>Formulario de registro</h1>
+<fieldset class="a1">
+  	<div class="c2"><span>nombres y apellidos</span></div>
+  	<div class="c1">
+  <br>
+  <input type="text"><br>
+  Nombre<br><br>
+  <input type="text"><br>
+  Primer apellido<br><br>
+  
+  <input type="text"><br>
+  segundo apellido<br><br>
+</div>
+</fieldset>
+<br>
+<fieldset class="a2">
+  <div class="c2"><span>Direccion</span></div>
+  <div class="c1"><br><input type="text" placeholder="calle,numero,piso,puerta"><br>
+  <br>
+  <input type="text" placeholder="codigo postal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" placeholder="municipio"><br><br> 
+  <input type="text" placeholder="provincia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="pais"><br><br></div>
+</fieldset>
+<fieldset class="a2">
+  <div class="c2"><span>EMAIL</span></div>
+  <div class="c1"><br><input type="email"></div>
+</fieldset>
+<fieldset class="a2">
+  <div class="c2"><span>TELEFONO</span></div>
+  <div class="c1"><br><input type="number" placeholder="fijo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" placeholder="movil"></div>
+</fieldset>
+<fieldset class="a2">
+	<input type="submit" value="Registrarse" class="c3">
+</fieldset>
+</fieldset>
+</body>
+</html>

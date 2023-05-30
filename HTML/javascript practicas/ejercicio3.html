@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	3. Los tramos impositivos para la declaración de la renta en un determinado país son los siguientes:
+Renta 	Tipo impositivo
+Menos de 10000€ 	5%
+Entre 10000€ y 20000€ 	15%
+Entre 20000€ y 35000€ 	20%
+Entre 35000€ y 60000€ 	30%
+Más de 60000€ 	45%
+
+	<script type="text/javascript">
+		var renta, tramo, tramo2;
+		renta=prompt('renta anual');
+		tramo=parseInt(renta)* 0.05;
+		tramo2=parseInt(renta)* 0.15;
+        tramo3=parseInt(renta)* 0.20;
+        tramo4=parseInt(renta)* 0.45;
+
+		if ( renta < 10000) {
+			document.write('le corresponde ' +tramo)
+				}
+				else {
+					if (20000 > renta & renta >= 10000) {
+						document.write('le corresponde ' +tramo2) 
+					}
+						else{
+							if (35000 > renta & renta > 20000) {
+						document.write('le corresponde ' +tramo3) 
+					           }
+					           else{
+					           	if (renta > 45000) {
+					           		document.write('le corresponde ' +tramo4)
+					           	}
+					           }
+
+						}
+					}
+	</script>
+
+</body>
+</html>
